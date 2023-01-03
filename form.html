@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="table.html">Table</a> </li>
+                <li> <a href="audio&video.html">Multimedia</a> </li>
+                
+            </ul>
+        </nav>
+    </header>
+    <h2>welcome to pitha ghor</h2>
+<form>
+    <label for="name">Enter Your Name
+        <input type="text" id="name" placeholder="Enter Your name">
+    </label>
+    <label for="email">Enter Your Email
+        <input type="email" id="email" placeholder="Enter Your email">
+    </label>
+    <fieldset>
+        <legend>Pick a pitha</legend>
+        <label for="chitoy">
+            <input type="radio" name="pitha" id="chitoy">chitoy
+        </label>
+        <label for="vapa">
+            <input type="radio" name="pitha" id="vapa"> vapa
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Select one or more vorta's</legend>
+        <label for="vorta">
+            <input type="checkbox" name="vorta" id="shorisa"> Shorisa Vorta
+        </label>
+        <label for="vorta">
+            <input type="checkbox" name="vorta" id="morich">morich Vorta
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Spacial Instraction</legend>
+        <label for="textarea">throw your massege
+        <textarea name="textarea" id="" cols="30" rows="3"></textarea>
+    </label>
+    </fieldset>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+
+
+</form>    
+</body>
+</html>

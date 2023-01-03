@@ -2,6 +2,47 @@ body{
     background-color: #fb5200;
     text-align: center;
 }
+nav > ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    margin: 0px 5px;
+    padding: 5px;
+    text-transform: capitalize;
+    border-radius: 2px;
+}
+ul li:hover{
+    background-color: #d0581cf2;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(237, 228, 228);
+    font-size: 18px;
+}
+/* dropdown menu style */
+.dropdown{
+    padding: 0em;
+    display: block;
+    position: absolute;
+    background-color: azure;
+}
+.dropdown2{
+    padding: 0em;
+    display: block;
+    position: absolute;
+    margin-left: 90px;
+    background-color: blanchedalmond;
+}
+.dropdown li a{
+    color:rgb(16, 12, 12) ;
+}
+.table:hover .dropdown{
+    display: block;
+}
+.form:hover .dropdown2{
+    display: block;
+}
 p{
     color: bisque;
 }
@@ -14,6 +55,30 @@ h2{
     color: aliceblue;
 }
 img{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+}
+input{
+    display: block;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 255px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+label{
+    color: antiquewhite;
+}
+table, td, th{
+    margin: auto;
+    border: 1px solid lightcyan;
+    border-collapse: collapse;
+}
+td{
+    padding: 5px 10px;
+}
+ul{
+    list-style: none;
 }
